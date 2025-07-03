@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>TrendStyle - Loja Virtual de RoupaT</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <span>TrendStyle</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre Nós</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <div class="icons">
+                <button class="theme-toggle" aria-label="Alternar tema">
+                    <span id="theme-icon">🌙</span>
+                </button>
+                <button class="btn btn-outline cart-btn" aria-label="Carrinho de compras">
+                    🛒 <span class="cart-count">0</span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero" id="inicio">
+        <h1>A TrendStyle é uma loja virtual especializada em moda masculina e feminina </h1>
+        <p>Oferecendo roupas de alta qualidade e as últimas tendências do mercado desde 2020, nossa missão é proporcionar estilo, conforto e confiança aos nossos clientes, com um atendimento dedicado e preços acessíveis.</p>
+    </section>
+
+    <main>
+        <section id="sobre">
+            <h2 class="section-title">Sobre Nós</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>A TechStore é uma loja virtual especializada em tecnologia de ponta, oferecendo os melhores produtos com qualidade garantida.</p>
+                    <p>Fundada em 2018, nossa missão é levar até você as últimas inovações tecnológicas com excelência no atendimento e preços justos.</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <div class="stat-number">5+</div>
+                            <div class="stat-label">Anos no mercado</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">8k+</div>
+                            <div class="stat-label">Clientes satisfeitos</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">50+</div>
+                            <div class="stat-label">Marcas parceiras</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="img/6-loja-de-roupas-com-prateleiras-brancas.jpg" alt="Equipe da TechStore reunida" class="rounded-img" />
+                </div>
+            </div>
+        </section>
+
+        <section id="produtos">
+            <h2 class="section-title">Produtos em Destaque</h2>
+
+            
+
+            <div class="products">
+                <article class="product-card" data-id="galaxys24ultra">
+                    <img
+                        src="img/32ab6d39-097d-4ea8-bf08-29e9f7c23808.jpeg"
+                        alt="Smartphone premium na cor preta com tela edge-to-edge sendo segurado por modelo masculino"
+                        class="product-image"
+                    />
+                    <div class="product-info">
+                        <h3 class="product-title">Smartphone Galaxy S24 Ultra</h3>
+                        <p class="product-description">
+                            O mais avançado smartphone do mercado com câmera de 200MP e caneta S-Pen integrada.
+                        </p>
+                        <div class="product-price">R$ 6.799,00</div>
+                        <button class="btn btn-primary">Adicionar ao carrinho</button>
+                    </div>
+                </article>
+
+                <article class="product-card" data-id="fonebluetooth">
+                    <img
+                        src="img/52536675-4e95-4316-901a-aa24d563eb84.jpeg"
+                        alt="Fones de ouvido sem fio premium em preto sobre fundo branco"
+                        class="product-image"
+                    />
+                    <div class="product-info">
+                        <h3 class="product-title">Fone Bluetooth Noise Canceling</h3>
+                        <p class="product-description">
+                            Cancelamento de ruído ativo com 30h de bateria e som surround de alta qualidade.
+                        </p>
+                        <div class="product-price">R$ 899,00</div>
+                        <button class="btn btn-primary">Adicionar ao carrinho</button>
+                    </div>
+                </article>
+
+                <article class="product-card" data-id="smartwatchpro">
+                    <img
+                        src="img/7ce78145-623d-4217-bebe-1996a39ec1fc.jpeg"
+                        alt="Smartwatch esportivo preto com pulseira de silicone e tela mostrando batimento cardíaco"
+                        class="product-image"
+                    />
+                    <div class="product-info">
+                        <h3 class="product-title">Smart Watch Pro Fitness</h3>
+                        <p class="product-description">
+                            Monitor de saúde avançado com GPS integrado e resistência à água até 50m.
+                        </p>
+                        <div class="product-price">R$ 1.299,00</div>
+                        <button class="btn btn-primary">Adicionar ao carrinho</button>
+                    </div>
+                </article>
+
+                <article class="product-card" data-id="monitorgamer4k">
+                    <img
+                        src="img/9fe20fbc-f0f4-46d7-864c-cd8ce9a13704.jpeg"
+                        alt="Monitor gamer curvo de 32 polegadas com tela 4K em mesa de escritório"
+                        class="product-image"
+                    />
+                    <div class="product-info">
+                        <h3 class="product-title">Monitor Gamer 4K 144Hz</h3>
+                        <p class="product-description">
+                            Tela curvada de 32" com HDR10 e taxa de atualização de 144Hz para jogos fluidos.
+                        </p>
+                        <div class="product-price">R$ 3.499,00</div>
+                        <button class="btn btn-primary">Adicionar ao carrinho</button>
+                    </div>
+                </article>
+
+                <article class="product-card" data-id="monitorgamer4k">
+                    <img
+                        src="img/bf568c08-e25a-496f-a85b-4e59f4907a53.jpeg"
+                        alt="Monitor gamer curvo de 32 polegadas com tela 4K em mesa de escritório"
+                        class="product-image"
+                    />
+                    <div class="product-info">
+                        <h3 class="product-title">Monitor Gamer 4K 144Hz</h3>
+                        <p class="product-description">
+                            Tela curvada de 32" com HDR10 e taxa de atualização de 144Hz para jogos fluidos.
+                        </p>
+                        <div class="product-price">R$ 3.499,00</div>
+                        <button class="btn btn-primary">Adicionar ao carrinho</button>
+                    </div>
+                </article>
+
+                <article class="product-card" data-id="monitorgamer4k">
+                    <img
+                        src="img/d909d594-30ef-46e5-8c46-6cbaa030fc92.jpeg"
+                        alt="Monitor gamer curvo de 32 polegadas com tela 4K em mesa de escritório"
+                        class="product-image"
+                    />
+                    <div class="product-info">
+                        <h3 class="product-title">Monitor Gamer 4K 144Hz</h3>
+                        <p class="product-description">
+                            Tela curvada de 32" com HDR10 e taxa de atualização de 144Hz para jogos fluidos.
+                        </p>
+                        <div class="product-price">R$ 3.499,00</div>
+                        <button class="btn btn-primary">Adicionar ao carrinho</button>
+                    </div>
+                </article>
+
+
+                <article class="product-card" data-id="monitorgamer4k">
+                    <img
+                        src="img/a2d3f902-9787-4f0e-81d1-85e8ecea75e7.jpeg"
+                        alt="Monitor gamer curvo de 32 polegadas com tela 4K em mesa de escritório"
+                        class="product-image"
+                    />
+                    <div class="product-info">
+                        <h3 class="product-title">Conjunto Tropical Chic</h3>
+                        <p class="product-description">
+                            Peça sofisticada e fresca, perfeita para dias quentes e ocasiões descontraídas com um toque de elegância.
+                        </p>
+                        <p><b>Cores disponíveis:</b> Mostarda, Preto e Verde Militar.</p>
+                        <div class="product-price">R$ 199,90</div>
+                        <button class="btn btn-primary">Adicionar ao carrinho</button>
+                    </div>
+                </article>
+
+                <article class="product-card" data-id="monitorgamer4k">
+                    <img
+                        src="img/b96333dc-f6bf-44ac-834a-3dcaa5bd0164.jpeg"
+                        alt="Monitor gamer curvo de 32 polegadas com tela 4K em mesa de escritório"
+                        class="product-image"
+                    />
+                    <div class="product-info">
+                        <h3 class="product-title">Vestido Fluído Essentials</h3>
+                        <p class="product-description">
+                             Vestido curto com decote halter e modelagem fluida, garantindo conforto e liberdade de movimento. Ideal para looks casuais e passeios à tarde.
+                        </p>
+                        <p>
+                            <b>Cores disponíveis:</b> Verde, Preto e Marrom.
+                        </p>
+                        <div class="product-price">R$ 149,90</div>
+                        <button class="btn btn-primary">Adicionar ao carrinho</button>
+                    </div>
+                </article>
+
+                <article class="product-card" data-id="monitorgamer4k">
+                    <img
+                        src="img/fff489f3-185d-4ab6-a892-4ae1b36be096.jpeg"
+                        alt="Monitor gamer curvo de 32 polegadas com tela 4K em mesa de escritório"
+                        class="product-image"
+                    />
+                    <div class="product-info">
+                        <h3 class="product-title">Conjunto White Elegance</h3>
+                        <p class="product-description">
+                            Conjunto branco elegante composto por cropped assimétrico com recorte e saia com cinto largo. Peça versátil que une modernidade e sofisticação, perfeito para eventos sociais e festas.
+                        </p>
+                        <p>
+                            <b>Cores disponíveis:</b> Branco.
+                        </p>
+                        <div class="product-price">R$ 229,90</div>
+                        <button class="btn btn-primary">Adicionar ao carrinho</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2 class="section-title">Entre em Contato</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="nome">Nome Completo</label>
+                    <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required />
+                    <div class="error-message" id="nome-error">Por favor, insira seu nome completo</div>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="seu@email.com" required />
+                    <div class="error-message" id="email-error">Por favor, insira um e-mail válido</div>
+                </div>
+
+                <div class="form-group">
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000" required />
+                    <div class="error-message" id="telefone-error">Por favor, insira um telefone válido</div>
+                </div>
+
+                <div class="form-group">
+                    <label for="assunto">Assunto</label>
+                    <select id="assunto" name="assunto" required>
+                        <option value="">Selecione um assunto</option>
+                        <option value="duvida">Dúvida sobre produto</option>
+                        <option value="reclamacao">Reclamação</option>
+                        <option value="sugestao">Sugestão</option>
+                        <option value="outro">Outro</option>
+                    </select>
+                    <div class="error-message" id="assunto-error">Por favor, selecione um assunto</div>
+                </div>
+
+                <div class="form-group">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea
+                        id="mensagem"
+                        name="mensagem"
+                        rows="5"
+                        placeholder="Digite sua mensagem aqui..."
+                        required
+                    ></textarea>
+                    <div class="error-message" id="mensagem-error">Por favor, digite sua mensagem</div>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-submit">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Modal do Carrinho -->
+    <div class="cart-modal" style="display:none;">
+        <div class="cart-content">
+            <div class="cart-tabs">
+                <button class="cart-tab active" data-tab="cart">Carrinho</button>
+                <button class="cart-tab" data-tab="checkout">Finalizar Compra</button>
+            </div>
+
+            <div class="tab-content active" id="cart-tab">
+                <h3>Seu Carrinho</h3>
+                <div class="cart-items">
+                    <!-- Itens serão adicionados dinamicamente -->
+                </div>
+                <div class="cart-total">
+                    Total: R$ <span class="total-amount">0,00</span>
+                </div>
+                <div class="cart-actions">
+                    <button class="btn btn-outline close-cart">Continuar Comprando</button>
+                    <button class="btn btn-primary go-to-checkout">Finalizar Compra</button>
+                </div>
+            </div>
+
+            <div class="tab-content" id="checkout-tab">
+                <h3>Finalizar Compra</h3>
+                <form id="checkout-form-modal">
+                    <div class="form-group">
+                        <label for="checkout-nome">Nome Completo</label>
+                        <input type="text" id="checkout-nome" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="checkout-email">E-mail</label>
+                        <input type="email" id="checkout-email" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="checkout-endereco">Endereço</label>
+                        <input type="text" id="checkout-endereco" required />
+                    </div>
+
+                    <h4>Forma de Pagamento</h4>
+                    <div class="payment-methods">
+                        <label class="payment-option">
+                            <input type="radio" name="payment" value="credit" checked />
+                            <span>Cartão de Débito</span>
+                        </label>
+                        <label class="payment-option">
+                            <input type="radio" name="payment" value="credit" checked />
+                            <span>Cartão de Crédito</span>
+                        </label>
+                        <label class="payment-option">
+                            <input type="radio" name="payment" value="pix" />
+                            <span>PIX</span>
+                        </label>
+                        <label class="payment-option">
+                            <input type="radio" name="payment" value="boleto" />
+                            <span>Boleto Bancário</span>
+                        </label>
+                    </div>
+
+                    <div class="cart-total">
+                        Total: R$ <span class="total-amount">0,00</span>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Confirmar Compra</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
